@@ -1,0 +1,48 @@
+[2023-03-07 14:22:00,430] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:22:07,175] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10139
+[2023-03-07 14:22:08,254] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2023-03-07 14:22:08,256] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2023-03-07 14:22:10,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 200 10139
+[2023-03-07 14:22:10,704] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2023-03-07 14:22:10,707] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2023-03-07 14:22:15,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 200 10139
+[2023-03-07 14:22:15,802] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2023-03-07 14:22:15,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2023-03-07 14:23:46,662] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 14:23:47,416] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:23:56,447] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 14:23:57,221] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:24:08,754] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:24:36,031] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 14:24:36,785] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:25:14,205] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:25:30,973] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:26:42,815] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 14:26:43,766] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:26:46,840] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 200 10139
+[2023-03-07 14:26:47,325] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2023-03-07 14:26:47,327] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2023-03-07 14:26:48,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 200 10139
+[2023-03-07 14:26:49,096] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2023-03-07 14:26:49,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2023-03-07 14:26:55,362] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 14:26:56,220] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:27:02,301] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 14:27:03,169] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 14:27:03,712] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2023-03-07 14:27:03,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2023-03-07 14:27:03,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+[2023-03-07 14:27:04,182] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2023-03-07 14:27:04,191] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2023-03-07 14:27:04,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2023-03-07 14:27:04,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2023-03-07 14:27:04,206] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 939
+[2023-03-07 14:27:04,210] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2023-03-07 14:27:04,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2023-03-07 14:27:04,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2023-03-07 14:27:06,155] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2023-03-07 14:27:06,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4394
+[2023-03-07 14:27:06,356] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2023-03-07 14:27:06,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2023-03-07 14:27:06,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2023-03-07 14:27:06,390] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
