@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'wxcloudrun'
+    'wxcloudrun',
+    'shop.apps.ShopConfig',
 ]
 
 MIDDLEWARE = [
@@ -69,10 +70,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get("MYSQL_DATABASE", 'django_demo'),
-        'USER': os.environ.get("MYSQL_USERNAME"),
-        'HOST': os.environ.get("MYSQL_ADDRESS").split(':')[0],
-        'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[1],
-        'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
+        'USER': os.environ.get("MYSQL_USERNAME") or 'root',
+        # 'HOST': os.environ.get("MYSQL_ADDRESS").split(':')[0] or '10.40.102.186',
+        # 'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[1] or 3306,
+        'HOST':'sh-cynosdbmysql-grp-mtuwmdsg.sql.tencentcdb.com',
+        'PORT': 24445,
+        'PASSWORD': os.environ.get("MYSQL_PASSWORD") or 'NwxKSc79',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
