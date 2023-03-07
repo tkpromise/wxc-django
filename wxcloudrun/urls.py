@@ -18,12 +18,19 @@ from wxcloudrun import views
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
+from django.conf import settings
+from django.conf.urls.static import static
 
-urlpatterns = (
-    # 计数器接口
+urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^^api/count(/)?$', views.counter),
+    path('', include('shop.urls', namespace='shop')),
+
+    # 计数器接口
+    # url(r'^^api/count(/)?$', views.counter),
 
     # 获取主页
     # url(r'(/)?$', views.index),
-)
+] 
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

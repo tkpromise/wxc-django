@@ -49,3 +49,70 @@
 [2023-03-07 14:31:35,837] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 [2023-03-07 14:31:36,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4394
 [2023-03-07 14:31:38,282] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4394
+[2023-03-07 15:10:10,449] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 15:12:03,372] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\wxcloudrun\urls.py changed, reloading.
+[2023-03-07 15:12:06,358] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 15:12:16,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 4394
+[2023-03-07 15:12:16,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2023-03-07 15:12:16,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2023-03-07 15:12:16,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2023-03-07 15:12:16,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2023-03-07 15:12:16,848] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2023-03-07 15:12:16,853] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2023-03-07 15:12:16,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2023-03-07 15:12:16,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2023-03-07 15:12:16,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2023-03-07 15:12:16,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2023-03-07 15:12:16,863] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2023-03-07 15:12:20,409] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/shop/product/ HTTP/1.1" 200 7378
+[2023-03-07 15:12:20,546] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-03-07 15:12:20,802] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[2023-03-07 15:12:20,822] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[2023-03-07 15:12:20,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[2023-03-07 15:12:20,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[2023-03-07 15:12:20,837] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[2023-03-07 15:12:20,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2023-03-07 15:12:20,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[2023-03-07 15:12:20,855] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2023-03-07 15:12:20,859] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[2023-03-07 15:12:20,884] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[2023-03-07 15:12:20,897] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[2023-03-07 15:12:20,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2023-03-07 15:12:32,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/shop/product/add/ HTTP/1.1" 200 9540
+[2023-03-07 15:12:32,978] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[2023-03-07 15:12:32,992] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[2023-03-07 15:12:33,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-03-07 15:12:35,259] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/shop/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3630
+[2023-03-07 15:12:35,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-03-07 15:12:37,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/shop/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 323
+[2023-03-07 15:12:38,005] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+[2023-03-07 15:13:02,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /admin/shop/product/add/ HTTP/1.1" 302 0
+[2023-03-07 15:13:02,590] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/shop/product/add/ HTTP/1.1" 200 9810
+[2023-03-07 15:13:02,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[2023-03-07 15:13:02,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2023-03-07 15:13:24,304] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\valar\Documents\GitHub\wxc-django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\valar\Documents\GitHub\wxc-django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\valar\Documents\GitHub\wxc-django\shop\views.py", line 13, in product_list
+    return render(request, 'shop/product/list', {'category': categories, 'products': products})
+  File "C:\Users\valar\Documents\GitHub\wxc-django\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\valar\Documents\GitHub\wxc-django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\valar\Documents\GitHub\wxc-django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/product/list
+[2023-03-07 15:13:24,308] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 83865
+[2023-03-07 15:14:23,323] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- C:\Users\valar\Documents\GitHub\wxc-django\shop\views.py changed, reloading.
+[2023-03-07 15:14:24,072] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 15:14:25,189] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 818
+[2023-03-07 15:14:25,218] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/base.css HTTP/1.1" 404 1795
+[2023-03-07 15:14:25,324] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/products/20230307/red_tea.jpg HTTP/1.1" 200 18660
+[2023-03-07 15:15:22,649] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-07 15:15:24,943] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 818
+[2023-03-07 15:15:24,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /media/products/20230307/red_tea.jpg HTTP/1.1" 304 0
+[2023-03-07 15:15:25,080] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/base.css HTTP/1.1" 200 4626
+[2023-03-07 15:15:27,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /1/green-tee/ HTTP/1.1" 200 0
