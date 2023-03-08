@@ -1,18 +1,29 @@
 from django.shortcuts import render, get_object_or_404
 
+from django.core import serializers
+from django.http import JsonResponse, HttpResponse
+
 from .models import Category, Product
 from cart.forms import CartAddProductForm
 
 # Create your views here.
 def product_list(request, category_slug=None):
-    user_agent = request.META
+    user_agent = request.META.items()
+    u2 = request.META.get('&#x27;PATH&#x27;')
     category = None
     categories = Category.objects.all()
     products = Product.objects.filter(available=True)
     if category_slug:
         category = get_object_or_404(Category, slug=category_slug)
         prodcuts = products.filter(category=category)
-    return render(request, 'shop/product/list2.html', {'category': categories, 'products': products, 'user_agent': user_agent})
+    # return render(request, 'shop/product/list2.html', {'category': categories, 'products': products, 'user_agent': user_agent, 'u2':u2})
+    # return render(request, 'shop/product/list2.html', 
+                  # {'user_agent': user_agent, 'u2':u2})
+    # data = serializers.serialize('json', user_agent)
+    # return JsonResponse(user_agent)
+    return HttpResponse(user_agent, content_type='application/json')
+
+    
 
 
 def product_detail(request, id, slug):
