@@ -8,7 +8,7 @@ from cart.forms import CartAddProductForm
 
 # Create your views here.
 def product_list(request, category_slug=None):
-    res = request.META.get('REMOTE_ADDR')
+    res = request.META.get('X-WX-OPENID')
     res2 = request.META.get('REMOTE_HOST')
      
     category = None
