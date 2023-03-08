@@ -5,7 +5,7 @@ from cart.forms import CartAddProductForm
 
 # Create your views here.
 def product_list(request, category_slug=None):
-    user_agent = request.META.get('HTTP_USER_AGENT', '')
+    user_agent = request.META.get('X-WX-OPENID', '')
     category = None
     categories = Category.objects.all()
     products = Product.objects.filter(available=True)
