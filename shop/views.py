@@ -8,8 +8,8 @@ from cart.forms import CartAddProductForm
 
 # Create your views here.
 def product_list(request, category_slug=None):
-    res = request.META.items()
-    res2 = request.META.get('REMOTE_HOST')
+    # res = request.META.items()
+    res2 = request.META.get('HTTP_X_WX_APPID')
      
     category = None
     categories = Category.objects.all()
@@ -23,7 +23,7 @@ def product_list(request, category_slug=None):
     # data = serializers.serialize('json', user_agent)
     # return JsonResponse(user_agent)
     # return HttpResponse({'user_agent': user_agent}, content_type='application/json')
-    return HttpResponse(res )
+    return HttpResponse(res2)
 
     
 
