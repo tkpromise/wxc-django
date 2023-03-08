@@ -8,8 +8,9 @@ from cart.forms import CartAddProductForm
 
 # Create your views here.
 def product_list(request, category_slug=None):
-    user_agent = request.META.items()
-    u2 = request.META.get('&#x27;PATH&#x27;')
+    res = request.META.get('REMOTE_ADDR')
+    res2 = request.META.get('REMOTE_HOST')
+     
     category = None
     categories = Category.objects.all()
     products = Product.objects.filter(available=True)
@@ -21,7 +22,8 @@ def product_list(request, category_slug=None):
                   # {'user_agent': user_agent, 'u2':u2})
     # data = serializers.serialize('json', user_agent)
     # return JsonResponse(user_agent)
-    return HttpResponse(user_agent, content_type='application/json')
+    # return HttpResponse({'user_agent': user_agent}, content_type='application/json')
+    return HttpResponse(res )
 
     
 
