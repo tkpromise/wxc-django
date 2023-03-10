@@ -8,7 +8,7 @@ from cart.forms import CartAddProductForm
 
 # Create your views here.
 def product_list(request, category_slug=None):
-    res = request.headers['X-Wx-Openid']
+    res = request.headers.get('x-wx-openid', None)
     # res2 = request.META.get('HTTP_X_WX_APPID')
      
     category = None
